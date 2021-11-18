@@ -1,0 +1,73 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+    font-family: Impact ;
+}
+.text{
+    font-family: small;
+}
+.col-lg-2{
+    border: 0.1px solid rgb(0, 0, 0);
+    padding: 25px;
+    margin: 5px 0;
+}
+.card__asus{
+    width: 60px;
+    padding: 1px 1px 0px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.card__asus:hover{
+    color: green;
+}
+.card__price{   
+    transition: 0.8s;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.card__price:hover{
+    background: white;
+    color: black;
+}
+.card__link{
+    text-decoration: none;
+    color: black;
+    transition: 0.8s;
+}
+.card__link:hover{
+    color: rgb(109, 109, 107);
+}
+.card__btn{
+    background: green;
+    border-radius: 7px;
+    color: whitesmoke;
+    -webkit-text-stroke-color: red;
+    padding: 3px 30% 3px 30%;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 150px;
+}
+.fa-question-circle{
+    color: rgb(64, 111, 150);
+    transition: 0.5s;
+    padding: 10px;
+    margin: 2px 0;
+}
+.fa-question-circle:hover{
+    color: rgb(218, 144, 7);
+}
+.fa-heart{
+    color: red;
+    padding: 10px;
+    margin: 2px 0;
+}
+.fa-heart:visited{
+    background: red;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
